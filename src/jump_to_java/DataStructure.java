@@ -41,6 +41,22 @@ public class DataStructure {
 		pitches.add("142");
 		
 		//get 메서드를 이용하여 특정 인덱스이 값 추출 가능
+		System.out.println(pitches.get(1));
+		
+		//size 메서드를 이용하여 ArrayList의 개수 확인 가능
+		System.out.println(pitches.size());
+		
+		//contains 메서드는 리스트 안에 해당 항목이 있는지 판별하여 그 결과를 boolean으로 리턴
+		System.out.println(pitches.contains("142"));
+		
+		/*
+		 * remove 메서드는 2가지 방식이 있다.
+		 * remove(객체),remove(인덱스)
+		 * remove(객체) 삭제 결과는 boolean으로 리턴
+		 * remove(인덱스) 삭제 결과는 해당 항목으로 리턴
+		 * */
+		 
+
 	}
 	
 	
